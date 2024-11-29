@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="./img/img2/th.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <img src="https://play-lh.googleusercontent.com/NdN89K2ndtpPym_MhF_NjcWk6p8qPul7Z1oapElBn-6w0cpkoJhIiU62Ulgz7FoBRg" alt="contacto">
+    </header>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./sobreMi.html">Sobre Mi</a>
+        <a href="./tblclientes.php">clientes</a>
+    </nav>
+
+    <div class="container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="material-icons">location_on</span>
+                <div>Guadalajara, Jalisco, México</div>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">phone</span>
+                <div>(800)33 178 83201</div>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">email</span>
+                <div>edwing@example.com</div>
+            </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.36164026543!2d-103.32802462441292!3d20.654861080902545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b23a9bbba80d%3A0xdacdb7fd592feb90!2sCentro%20Universitario%20de%20Ciencias%20Exactas%20e%20Ingenier%C3%ADas%20(CUCEI)!5e0!3m2!1ses-419!2smx!4v1732319257177!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Edwing Ulloa - Ingeniero en Computacion</p>
+    </footer>
+    
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #27374D;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+    header {
+        background-color: #CDD0CB;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+    header h1{
+        margin: 0;
+    }
+    header img { 
+        max-width: 20%; 
+        height: auto; 
+        display: block; 
+        margin: 10px auto;  
+    }
+    nav {
+        text-align: center;
+        padding: 10px;
+        background-color: #9DB2BF;
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin: 0 15px;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color: #526D82;
+        color: #fff;
+    }
+    .contact-info {
+        background-color: #9DB2BF;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .material-icons {
+        font-size: 40px;
+        margin-right: 15px;
+        color: #0a0a0a;
+    }
+    .contact-item div {
+        font-size: 18px;
+    }
+    .map-container {
+        margin-top: 20px;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+        border: 0;
+    }
+    @media (max-width: 768px) {
+        .container {
+            width: 90%;
+        }
+        nav a {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+    @media (max-width: 480px) {
+        header h1 {
+            font-size: 24px;
+        }
+    }
+</style>
+

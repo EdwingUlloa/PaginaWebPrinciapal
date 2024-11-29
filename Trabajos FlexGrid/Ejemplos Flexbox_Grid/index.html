@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Ejemplos con Flexbox/Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <H1>10 Ejemplos con Flexbox/Grid</H1>
+    <hr>
+
+    <h2>1.- flex-wrap</h2>
+    <div class="wrapper">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+      </div>
+      <p>Se puede ver que dos elementos se han ajustado en una nueva línea. Estos ítems comparten el espacio disponible y no están alineados debajo de los ítems de arriba. Esto es porque cuando envuelves (wrap) flex-ítems, cada nueva fila (o columna si se trabaja por columna) se convierte en un nuevo flex-container.</p>
+    <hr>
+
+    <h2>El mismo diseño con CSS Grid Layout</h2>
+
+    <div class="wrapper-Grid">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+    </div>
+    <p>Hay una pregunta muy simple para decidir si utilizar grid o flexbox:</p>
+    <p>¿Necesito controlar el diseño únicamente por filas o por columnas? – usa flexbox</p>
+    <p>¿Necesito controlar el diseño por filas y por columnas? – usa grid</p>
+    <hr>
+
+    <h2>2.-Alineación de Cajas</h2>
+    <div class="wrapper-AlinCaja">
+        <div class="box1">One</div>
+        <div class="box2">Two</div>
+      </div>
+    <hr>
+
+    <h2>El mismo diseño con CSS Grid Layout</h2>
+    <div class="wrapper-AlinCajaGrid">
+        <div class="box1">One</div>
+        <div class="box2">Two</div>
+      </div>
+    <hr>
+
+    <h2>3.-El grid container como bloque contenedor</h2>
+      <p>En el ejemplo de abajo tengo un wrapper que contiene cuatro ítems hijos, el ítem tres está absolutamente posicionado y también está colocado en la cuadrícula usando line-based placement. El grid container tiene position: relative y así se convierte en el contexto de posicionamiento de este elemento.</p>
+      <div class="wrapper-GridcomoContainer">
+        <div class="box1">One</div>
+        <div class="box2">Two</div>
+        <div class="box3">
+          Este bloque está absolutamente posicionado. En este ejemplo, el grid
+          container es el bloque contenedor, y por ello sus valores offset para el
+          posicionamiento absoluto se calculan a partir de los bordes exteriores del
+          área en la que está colocado.
+        </div>
+        <div class="box4">Four</div>
+      </div>
+    <hr>
+
+    <h2>4.-Layout de Tres Columnas, usando Flexbox</h2>
+    <div class="container">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+      </div>    
+    <hr>
+    
+    <h2>5.-Layout de Tarjetas con flexbox</h2>
+    <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+    <hr>
+
+    <h2>6.-Layout de Barra de Navegación con flexbox</h2>
+    <nav class="navbar">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+      </nav>
+    <hr>
+
+    <h2>7.-Layout de Pie de Página con flexbox</h2>
+    <footer class="footer">
+        <div>Footer Content Edwing ulloa</div>
+      </footer>
+    <hr>
+
+    <h2>8.-Layout de Tarjetas con Grid</h2>
+    <div class="card-grid">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+      </div>
+    <hr>
+
+    <h2>9.-Layout de Galería de Imágenes con grid</h2>
+    <div class="gallery">
+        <div>Image 1</div>
+        <div>Image 2</div>
+        <div>Image 3</div>
+        <div>Image 4</div>
+      </div>
+      <hr>
+
+      <h2>10.-Layout de Página Completa</h2>
+      <div class="page-layout">
+        <header>Header</header>
+        <nav>Navigation</nav>
+        <main>Main Content</main>
+        <aside>Sidebar</aside>
+        <footer>Footer</footer>
+      </div>
+      <hr>
+
+        <div class="conclusion">
+            <p>Estos fueron 10 ejemplos con Flexbox y grid , espero haya sido de su agrado</p>
+    
+        </div>
+</body>
+</html>

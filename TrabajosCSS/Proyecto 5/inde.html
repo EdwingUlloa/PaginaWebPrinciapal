@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="login-container">
+            <h2>Welcome</h2>
+            <p>Selecciona el metodo de Autenticacion</p>
+
+            <form action="">
+                <p>
+                    <label for="username">Username</label>
+                    <input class="input" type="text" name="username" id="username">
+
+                </p>
+
+                <p>
+                    <label for="pasword">Pasword</label>
+                    <input class="input" type="text" name="pasword" id="pasword">
+                    
+                </p>
+
+                <div class="options" >
+                    <div>
+                        Remember me <input type="checkbox" name=""rememberme id="rememberme">
+                    </div>
+                    <div>
+                        <a href="#">i forgot my pasword</a>
+                    </div>
+                </div>
+
+                <p>
+                    <input type="submit" class="btn btn-login" value="log in">
+
+                    <div class="providers">
+                        <span>Choose another method to authenticate</span>
+                        <button  class="btn btn-google">Google</button>
+                        <button  class="btn btn-facebook">facebook</button>
+                        <button  class="btn btn-twitter">Twitter</button>
+                    </div>
+                </p>
+            </form>
+        </div>
+
+        <div class="welcome-screen-container"></div>
+    </div> 
+</body>
+</html>

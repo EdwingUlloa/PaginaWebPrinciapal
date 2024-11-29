@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Mi</title>
+    <link rel="shortcut icon" href="./img/img2/th.jpeg" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>Edwing Ulloa</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./tblclientes.php">clientes</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="main">
+            <img src="./img/Foto Perfil/Imagen de WhatsApp Edwing 2024-11-28 a las 18.35.48_d1b831ce.jpg" alt="Tu Foto" class="profile-pic">
+            <div class="section">
+                <h2>Información Personal</h2>
+                <ul>
+                    <li><strong>Nombre:</strong> Edwing Ulloa</li>
+                    <li><strong>Profesión:</strong> Prospect to Engineer</li>
+                    <li><strong>Email:</strong> edwing@example.com</li>
+                    <li><strong>Teléfono:</strong> +123 456 7890</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Educación</h2>
+                <ul>
+                    <li><strong>Instituto XYZ</strong> - Ingeniería en Computación</li>
+                    <li><strong>Preparatoria ABC</strong> - Bachillerato en Ciencias</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Experiencia</h2>
+                <ul>
+                    <li><strong>Empresa 1</strong> - Desarrollador Junior (Actualidad)</li>
+                    <li><strong>Empresa 2</strong> - Practicante en Desarrollo </li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Programación en C++ y Python</li>
+                    <li>Desarrollo Web con HTML, CSS y JavaScript</li>
+                    <li>Gestión de Bases de Datos con SQL</li>
+                    <li>Conocimientos en Sistemas Operativos</li>
+                    <li>Habilidades de Comunicación y Trabajo en Equipo</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Edwing Ulloa - Ingeniero en Computacion</p>
+    </footer>
+    
+</body>
+</html>
+
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #526D82;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #27374D;
+    color: #DDE6ED;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b300 3px solid;
+}
+header a, nav a {
+    color: #0a85e3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+nav {
+    text-align: center;
+    padding: 20px;
+    background: #0e0d0d;
+}
+nav a {
+    margin: 0 15px;
+    display: inline-block;  /* Asegúrate de que los enlaces sean inline-block */
+    padding: 10px 15px;  /* Añadir padding para el área de hover */
+    border-radius: 5px;  /* Añadir bordes redondeados */
+}
+nav a:hover {
+    background-color: #77b300;  /* Efecto hover solo en los enlaces */
+    color: #fff;  /* Cambiar color del texto al hacer hover */
+}
+.main {
+    background: #DDE6ED;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.profile-pic {
+    float: right;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.info { flex-grow: 1; /* Permitir que el contenido crezca para llenar el espacio */ }
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #7C9473;
+    padding-bottom: 10px;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 100px;
+        padding: 10px;
+    }
+    nav {
+        text-align: left;
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+}
+</style>

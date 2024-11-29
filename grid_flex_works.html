@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos Flex y Grid</title>
+    <link rel="shortcut icon" href="./img/FLEXGRID/flexbox-cssgrid.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>Ejemplo Flex / Grid</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./sobreMi.html">Sobre Mi</a>
+        <a href="./tblclientes.php">clientes</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+
+    <div class="trabajo">
+        <h3> Ejemplos Flex y Grid</h3>
+        <iframe src="./Trabajos FlexGrid/Ejemplos Flexbox_Grid/index.html"></iframe>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Edwing Ulloa - Ingeniero en Computacion</p>
+    </footer>
+    
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #27374D;
+        color: #fff;
+        padding: 20px;
+    }
+    header {
+        background-color: #7C9473;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        margin: 0;
+    }
+    .trabajo {
+        margin-bottom: 20px;
+    }
+    .trabajo h3 {
+        margin-bottom: 10px;
+    }
+    .trabajo iframe {
+        width: 100%;
+        height: 2950px;
+    }
+    nav {
+        text-align: center;
+        padding: 10px;
+        background-color: #9DB2BF;
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin: 0 15px;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color: #526D82;
+        color: #fff;
+    }
+    @media (max-width: 768px) { 
+        nav a { 
+            display: block; 
+            margin: 10px 0; 
+            } 
+            header h1 { 
+                font-size: 1.5rem; 
+                } 
+                .trabajo h3 { 
+                font-size: 1.25rem; 
+                } 
+        } 
+                
+    @media (max-width: 480px) { 
+        body {
+             padding: 10px; 
+             } 
+             nav { 
+                padding: 10px 0; 
+                } 
+                header h1 { 
+                    font-size: 1.25rem; 
+                    } 
+                    .trabajo h3 { 
+                        font-size: 1rem; 
+                        } 
+            }
+</style>

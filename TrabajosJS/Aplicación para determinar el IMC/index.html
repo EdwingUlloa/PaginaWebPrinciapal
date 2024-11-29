@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo/imc-letter-technology-logo-design-on-white-background-imc-creative-initials-letter-it-logo-concept-imc-letter-design-vector.jpg" type="image/x-icon">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadores de IMC</h1>
+
+        <img src="Logo/imc-letter-technology-logo-design-on-white-background-imc-creative-initials-letter-it-logo-concept-imc-letter-design-vector.jpg" alt="IMC">
+
+        <label for="peso">Peso (KG):</label>
+        <input type="number" id="peso" required><br>
+        <label for="Estatura">Estatura (m):</label>
+        <input type="number" step="0.01" id="estatura" required><br><br>
+        <button onclick="calcularIMC()">Calcular IMC</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
